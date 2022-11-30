@@ -1,0 +1,1787 @@
+Script started on Tue Nov 29 09:46:01 2022
+[1m[7m%[27m[1m[0m                                                                                ]2;ben@Bens-MacBook-Pro-16:~/workspace/martins-aquarium]1;..tins-aquarium[0m[27m[24m[J[01;32m➜  [36mmartins-aquarium[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hsscripts[?1l>[?2004l
+]2;scripts]1;scripts[1m[7m%[27m[1m[0m                                                                                ]2;ben@Bens-MacBook-Pro-16:~/workspace/martins-aquarium/scripts]1;..arium/scripts[0m[27m[24m[J[01;32m➜  [36mscripts[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hnnode main.js[?1l>[?2004l
+]2;node main.js]1;node(node:21880) Warning: To load an ES module, set "type": "module" in the package.json or use the .mjs extension.
+(Use `node --trace-warnings ...` to show where the warning was created)
+/Users/ben/workspace/martins-aquarium/scripts/main.js:1
+import { getFish } from './database.js'
+^^^^^^
+
+SyntaxError: Cannot use import statement outside a module
+[90m    at Object.compileFunction (node:vm:360:18)[39m
+[90m    at wrapSafe (node:internal/modules/cjs/loader:1088:15)[39m
+[90m    at Module._compile (node:internal/modules/cjs/loader:1123:27)[39m
+[90m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[90m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[90m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)[39m
+[90m    at node:internal/main/run_main_module:23:47[39m
+
+Node.js v18.12.1
+[1m[7m%[27m[1m[0m                                                                                ]2;ben@Bens-MacBook-Pro-16:~/workspace/martins-aquarium/scripts]1;..arium/scripts[0m[27m[24m[J[01;31m➜  [36mscripts[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hnode main.js[?1l>[?2004l
+]2;node main.js]1;node(node:21924) Warning: To load an ES module, set "type": "module" in the package.json or use the .mjs extension.
+(Use `node --trace-warnings ...` to show where the warning was created)
+/Users/ben/workspace/martins-aquarium/scripts/main.js:1
+import { getFish } from './database.js'
+^^^^^^
+
+SyntaxError: Cannot use import statement outside a module
+[90m    at Object.compileFunction (node:vm:360:18)[39m
+[90m    at wrapSafe (node:internal/modules/cjs/loader:1088:15)[39m
+[90m    at Module._compile (node:internal/modules/cjs/loader:1123:27)[39m
+[90m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[90m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[90m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)[39m
+[90m    at node:internal/main/run_main_module:23:47[39m
+
+Node.js v18.12.1
+[1m[7m%[27m[1m[0m                                                                                ]2;ben@Bens-MacBook-Pro-16:~/workspace/martins-aquarium/scripts]1;..arium/scripts[0m[27m[24m[J[01;31m➜  [36mscripts[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hmmain  m  nnode database.js[?1l>[?2004l
+]2;node database.js]1;node(node:22022) Warning: To load an ES module, set "type": "module" in the package.json or use the .mjs extension.
+(Use `node --trace-warnings ...` to show where the warning was created)
+/Users/ben/workspace/martins-aquarium/scripts/database.js:46
+export const getFish = () => {
+^^^^^^
+
+SyntaxError: Unexpected token 'export'
+[90m    at Object.compileFunction (node:vm:360:18)[39m
+[90m    at wrapSafe (node:internal/modules/cjs/loader:1088:15)[39m
+[90m    at Module._compile (node:internal/modules/cjs/loader:1123:27)[39m
+[90m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[90m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[90m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)[39m
+[90m    at node:internal/main/run_main_module:23:47[39m
+
+Node.js v18.12.1
+[1m[7m%[27m[1m[0m                                                                                ]2;ben@Bens-MacBook-Pro-16:~/workspace/martins-aquarium/scripts]1;..arium/scripts[0m[27m[24m[J[01;31m➜  [36mscripts[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hnode database.js[?1l>[?2004l
+]2;node database.js]1;node[
+  {
+    name: [32m'Bart'[39m,
+    food: [32m'crustaceans'[39m,
+    size: [33m3[39m,
+    location: [32m'Carribean'[39m,
+    species: [32m'Yellow Watchman Goby'[39m
+  },
+  {
+    name: [32m'Jeff'[39m,
+    food: [32m'feeder fish'[39m,
+    size: [33m6[39m,
+    location: [32m'Indian Ocean'[39m,
+    species: [32m'Green Wrasse'[39m
+  },
+  {
+    name: [32m'Steve'[39m,
+    food: [32m'cheez-its'[39m,
+    size: [33m1[39m,
+    location: [32m'Gulf of Mexico'[39m,
+    species: [32m'Angel Fish'[39m
+  },
+  {
+    name: [32m'Karen'[39m,
+    food: [32m'algae'[39m,
+    size: [33m4[39m,
+    location: [32m'Carribean'[39m,
+    species: [32m'Clown Fish'[39m
+  },
+  {
+    name: [32m'Dory'[39m,
+    food: [32m'crustaceans'[39m,
+    size: [33m6[39m,
+    location: [32m'Pacific Ocean'[39m,
+    species: [32m'Green Moray'[39m
+  }
+]
+[1m[7m%[27m[1m[0m                                                                                ]2;ben@Bens-MacBook-Pro-16:~/workspace/martins-aquarium/scripts]1;..arium/scripts[0m[27m[24m[J[01;32m➜  [36mscripts[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hnnode main.js[?1l>[?2004l
+]2;node main.js]1;node(node:22088) Warning: To load an ES module, set "type": "module" in the package.json or use the .mjs extension.
+(Use `node --trace-warnings ...` to show where the warning was created)
+/Users/ben/workspace/martins-aquarium/scripts/main.js:1
+import { getFish } from './database.js'
+^^^^^^
+
+SyntaxError: Cannot use import statement outside a module
+[90m    at Object.compileFunction (node:vm:360:18)[39m
+[90m    at wrapSafe (node:internal/modules/cjs/loader:1088:15)[39m
+[90m    at Module._compile (node:internal/modules/cjs/loader:1123:27)[39m
+[90m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[90m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[90m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)[39m
+[90m    at node:internal/main/run_main_module:23:47[39m
+
+Node.js v18.12.1
+[1m[7m%[27m[1m[0m                                                                                ]2;ben@Bens-MacBook-Pro-16:~/workspace/martins-aquarium/scripts]1;..arium/scripts[0m[27m[24m[J[01;31m➜  [36mscripts[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hnode main.js[?1l>[?2004l
+]2;node main.js]1;node(node:22165) Warning: To load an ES module, set "type": "module" in the package.json or use the .mjs extension.
+(Use `node --trace-warnings ...` to show where the warning was created)
+/Users/ben/workspace/martins-aquarium/scripts/main.js:1
+import { getFish } from './database.js'
+^^^^^^
+
+SyntaxError: Cannot use import statement outside a module
+[90m    at Object.compileFunction (node:vm:360:18)[39m
+[90m    at wrapSafe (node:internal/modules/cjs/loader:1088:15)[39m
+[90m    at Module._compile (node:internal/modules/cjs/loader:1123:27)[39m
+[90m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[90m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[90m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)[39m
+[90m    at node:internal/main/run_main_module:23:47[39m
+
+Node.js v18.12.1
+[1m[7m%[27m[1m[0m                                                                                ]2;ben@Bens-MacBook-Pro-16:~/workspace/martins-aquarium/scripts]1;..arium/scripts[0m[27m[24m[J[01;31m➜  [36mscripts[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hnode main.js[?1l>[?2004l
+]2;node main.js]1;node(node:22256) Warning: To load an ES module, set "type": "module" in the package.json or use the .mjs extension.
+(Use `node --trace-warnings ...` to show where the warning was created)
+/Users/ben/workspace/martins-aquarium/scripts/main.js:1
+import { getFish } from './database.js'
+^^^^^^
+
+SyntaxError: Cannot use import statement outside a module
+[90m    at Object.compileFunction (node:vm:360:18)[39m
+[90m    at wrapSafe (node:internal/modules/cjs/loader:1088:15)[39m
+[90m    at Module._compile (node:internal/modules/cjs/loader:1123:27)[39m
+[90m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[90m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[90m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)[39m
+[90m    at node:internal/main/run_main_module:23:47[39m
+
+Node.js v18.12.1
+[1m[7m%[27m[1m[0m                                                                                ]2;ben@Bens-MacBook-Pro-16:~/workspace/martins-aquarium/scripts]1;..arium/scripts[0m[27m[24m[J[01;31m➜  [36mscripts[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hnode main.js[?1l>[?2004l
+]2;node main.js]1;node(node:22284) Warning: To load an ES module, set "type": "module" in the package.json or use the .mjs extension.
+(Use `node --trace-warnings ...` to show where the warning was created)
+/Users/ben/workspace/martins-aquarium/scripts/main.js:1
+import { getFish } from './database.js'
+^^^^^^
+
+SyntaxError: Cannot use import statement outside a module
+[90m    at Object.compileFunction (node:vm:360:18)[39m
+[90m    at wrapSafe (node:internal/modules/cjs/loader:1088:15)[39m
+[90m    at Module._compile (node:internal/modules/cjs/loader:1123:27)[39m
+[90m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[90m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[90m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)[39m
+[90m    at node:internal/main/run_main_module:23:47[39m
+
+Node.js v18.12.1
+[1m[7m%[27m[1m[0m                                                                                ]2;ben@Bens-MacBook-Pro-16:~/workspace/martins-aquarium/scripts]1;..arium/scripts[0m[27m[24m[J[01;31m➜  [36mscripts[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hccd[?1l>[?2004l
+]2;cd]1;cd[1m[7m%[27m[1m[0m                                                                                ]2;ben@Bens-MacBook-Pro-16:~]1;~[0m[27m[24m[J[01;32m➜  [36m~[00m [K[?1h=[?2004hwworkspace/martins-aquarium[1m/[0m[0m [?1l>[?2004l
+]2;workspace/martins-aquarium]1;workspace/martins-aquarium[1m[7m%[27m[1m[0m                                                                                ]2;ben@Bens-MacBook-Pro-16:~/workspace/martins-aquarium]1;..tins-aquarium[0m[27m[24m[J[01;32m➜  [36mmartins-aquarium[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hnnode index.html[?1l>[?2004l
+]2;node index.html]1;node/Users/ben/workspace/martins-aquarium/index.html:1
+<!DOCTYPE html>
+^
+
+SyntaxError: Unexpected token '<'
+[90m    at Object.compileFunction (node:vm:360:18)[39m
+[90m    at wrapSafe (node:internal/modules/cjs/loader:1088:15)[39m
+[90m    at Module._compile (node:internal/modules/cjs/loader:1123:27)[39m
+[90m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[90m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[90m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)[39m
+[90m    at node:internal/main/run_main_module:23:47[39m
+
+Node.js v18.12.1
+[1m[7m%[27m[1m[0m                                                                                ]2;ben@Bens-MacBook-Pro-16:~/workspace/martins-aquarium]1;..tins-aquarium[0m[27m[24m[J[01;31m➜  [36mmartins-aquarium[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hnnode main.js[?1l>[?2004l
+]2;node main.js]1;nodenode:internal/modules/cjs/loader:998
+  throw err;
+  ^
+
+Error: Cannot find module '/Users/ben/workspace/martins-aquarium/main.js'
+[90m    at Module._resolveFilename (node:internal/modules/cjs/loader:995:15)[39m
+[90m    at Module._load (node:internal/modules/cjs/loader:841:27)[39m
+[90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)[39m
+[90m    at node:internal/main/run_main_module:23:47[39m {
+  code: [32m'MODULE_NOT_FOUND'[39m,
+  requireStack: []
+}
+
+Node.js v18.12.1
+[1m[7m%[27m[1m[0m                                                                                ]2;ben@Bens-MacBook-Pro-16:~/workspace/martins-aquarium]1;..tins-aquarium[0m[27m[24m[J[01;31m➜  [36mmartins-aquarium[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hsscrips ts[?1l>[?2004l
+]2;scripts]1;scripts[1m[7m%[27m[1m[0m                                                                                ]2;ben@Bens-MacBook-Pro-16:~/workspace/martins-aquarium/scripts]1;..arium/scripts[0m[27m[24m[J[01;32m➜  [36mscripts[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hnnode index.      mainljs   n .js[?1l>[?2004l
+]2;node main.js]1;node(node:22402) Warning: To load an ES module, set "type": "module" in the package.json or use the .mjs extension.
+(Use `node --trace-warnings ...` to show where the warning was created)
+/Users/ben/workspace/martins-aquarium/scripts/main.js:1
+import { getFish } from './database.js'
+^^^^^^
+
+SyntaxError: Cannot use import statement outside a module
+[90m    at Object.compileFunction (node:vm:360:18)[39m
+[90m    at wrapSafe (node:internal/modules/cjs/loader:1088:15)[39m
+[90m    at Module._compile (node:internal/modules/cjs/loader:1123:27)[39m
+[90m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[90m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[90m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)[39m
+[90m    at node:internal/main/run_main_module:23:47[39m
+
+Node.js v18.12.1
+[1m[7m%[27m[1m[0m                                                                                ]2;ben@Bens-MacBook-Pro-16:~/workspace/martins-aquarium/scripts]1;..arium/scripts[0m[27m[24m[J[01;31m➜  [36mscripts[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hccd ..[?1l>[?2004l
+]2;cd ..]1;cd[1m[7m%[27m[1m[0m                                                                                ]2;ben@Bens-MacBook-Pro-16:~/workspace/martins-aquarium]1;..tins-aquarium[0m[27m[24m[J[01;32m➜  [36mmartins-aquarium[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hssev rve[?1l>[?2004l
+]2;serve]1;serve[41m[37m UPDATE [39m[49m The latest version of `serve` is 14.1.2
+[32m[39m
+[32m   ┌─────────────────────────────────────────┐[39m
+   [32m│[39m                                         [32m│[39m
+   [32m│[39m   [32mServing![39m                              [32m│[39m
+   [32m│[39m                                         [32m│[39m
+   [32m│[39m   [1m- Local:[22m    http://localhost:3000     [32m│[39m
+   [32m│[39m   [1m- Network:[22m  http://192.168.1.4:3000   [32m│[39m
+   [32m│[39m                                         [32m│[39m
+   [32m│[39m   [90mCopied local address to clipboard![39m    [32m│[39m
+   [32m│[39m                                         [32m│[39m
+[32m   └─────────────────────────────────────────┘[39m
+[32m[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 10:08:17 AM[22m [33m::1[39m [36mGET /apple-touch-icon-precomposed.png[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 10:08:17 AM[22m [33m::1[39m [36mGET /apple-touch-icon.png[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 10:08:17 AM[22m [33m::1[39m [36mGET /favicon.ico[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 10:08:17 AM[22m [33m::1[39m [31mReturned 404 in 20 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 10:08:17 AM[22m [33m::1[39m [31mReturned 404 in 4 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 10:08:17 AM[22m [33m::1[39m [31mReturned 404 in 5 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 10:08:17 AM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 10:08:17 AM[22m [33m::1[39m [32mReturned 200 in 3 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 10:08:37 AM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 10:08:37 AM[22m [33m::1[39m [32mReturned 304 in 12 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 10:08:37 AM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 10:08:37 AM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 10:08:37 AM[22m [33m::1[39m [32mReturned 304 in 4 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 10:08:37 AM[22m [33m::1[39m [32mReturned 304 in 8 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 10:08:37 AM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 10:08:37 AM[22m [33m::1[39m [32mReturned 200 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 10:08:45 AM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 10:08:45 AM[22m [33m::1[39m [32mReturned 304 in 3 ms[39m
+^C
+[45m[1m INFO [22m[49m Gracefully shutting down. Please wait...
+[1m[7m%[27m[1m[0m                                                                                ]2;ben@Bens-MacBook-Pro-16:~/workspace/martins-aquarium]1;..tins-aquarium[0m[27m[24m[J[01;32m➜  [36mmartins-aquarium[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hsscripts[?1l>[?2004l
+]2;scripts]1;scripts[1m[7m%[27m[1m[0m                                                                                ]2;ben@Bens-MacBook-Pro-16:~/workspace/martins-aquarium/scripts]1;..arium/scripts[0m[27m[24m[J[01;32m➜  [36mscripts[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hnnode fish     fi  Fj ishLlist    ist .js[?1l>[?2004l
+]2;node FishList.js]1;node(node:23243) Warning: To load an ES module, set "type": "module" in the package.json or use the .mjs extension.
+(Use `node --trace-warnings ...` to show where the warning was created)
+/Users/ben/workspace/martins-aquarium/scripts/FishList.js:2
+import { getFish } from './database.js'
+^^^^^^
+
+SyntaxError: Cannot use import statement outside a module
+[90m    at Object.compileFunction (node:vm:360:18)[39m
+[90m    at wrapSafe (node:internal/modules/cjs/loader:1088:15)[39m
+[90m    at Module._compile (node:internal/modules/cjs/loader:1123:27)[39m
+[90m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[90m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[90m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)[39m
+[90m    at node:internal/main/run_main_module:23:47[39m
+
+Node.js v18.12.1
+[1m[7m%[27m[1m[0m                                                                                ]2;ben@Bens-MacBook-Pro-16:~/workspace/martins-aquarium/scripts]1;..arium/scripts[0m[27m[24m[J[01;31m➜  [36mscripts[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hsserve[?1l>[?2004l
+]2;serve]1;serve[41m[37m UPDATE [39m[49m The latest version of `serve` is 14.1.2
+[32m[39m
+[32m   ┌─────────────────────────────────────────┐[39m
+   [32m│[39m                                         [32m│[39m
+   [32m│[39m   [32mServing![39m                              [32m│[39m
+   [32m│[39m                                         [32m│[39m
+   [32m│[39m   [1m- Local:[22m    http://localhost:3000     [32m│[39m
+   [32m│[39m   [1m- Network:[22m  http://192.168.1.4:3000   [32m│[39m
+   [32m│[39m                                         [32m│[39m
+   [32m│[39m   [90mCopied local address to clipboard![39m    [32m│[39m
+   [32m│[39m                                         [32m│[39m
+[32m   └─────────────────────────────────────────┘[39m
+[32m[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:14:07 AM[22m [33m::1[39m [36mGET /apple-touch-icon.png[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:14:07 AM[22m [33m::1[39m [36mGET /favicon.ico[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:14:07 AM[22m [33m::1[39m [36mGET /apple-touch-icon-precomposed.png[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:14:07 AM[22m [33m::1[39m [31mReturned 404 in 31 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:14:07 AM[22m [33m::1[39m [31mReturned 404 in 5 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:14:07 AM[22m [33m::1[39m [31mReturned 404 in 4 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:14:07 AM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:14:07 AM[22m [33m::1[39m [32mReturned 200 in 2 ms[39m
+^C
+[45m[1m INFO [22m[49m Gracefully shutting down. Please wait...
+[1m[7m%[27m[1m[0m                                                                                ]2;ben@Bens-MacBook-Pro-16:~/workspace/martins-aquarium/scripts]1;..arium/scripts[0m[27m[24m[J[01;32m➜  [36mscripts[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hccd ..[?1l>[?2004l
+]2;cd ..]1;cd[1m[7m%[27m[1m[0m                                                                                ]2;ben@Bens-MacBook-Pro-16:~/workspace/martins-aquarium]1;..tins-aquarium[0m[27m[24m[J[01;32m➜  [36mmartins-aquarium[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hn sserve[?1l>[?2004l
+]2;serve]1;serve[41m[37m UPDATE [39m[49m The latest version of `serve` is 14.1.2
+[32m[39m
+[32m   ┌─────────────────────────────────────────┐[39m
+   [32m│[39m                                         [32m│[39m
+   [32m│[39m   [32mServing![39m                              [32m│[39m
+   [32m│[39m                                         [32m│[39m
+   [32m│[39m   [1m- Local:[22m    http://localhost:3000     [32m│[39m
+   [32m│[39m   [1m- Network:[22m  http://192.168.1.4:3000   [32m│[39m
+   [32m│[39m                                         [32m│[39m
+   [32m│[39m   [90mCopied local address to clipboard![39m    [32m│[39m
+   [32m│[39m                                         [32m│[39m
+[32m   └─────────────────────────────────────────┘[39m
+[32m[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:14:26 AM[22m [33m::1[39m [36mGET /apple-touch-icon-precomposed.png[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:14:26 AM[22m [33m::1[39m [36mGET /apple-touch-icon.png[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:14:26 AM[22m [33m::1[39m [36mGET /favicon.ico[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:14:26 AM[22m [33m::1[39m [31mReturned 404 in 10 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:14:26 AM[22m [33m::1[39m [31mReturned 404 in 3 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:14:26 AM[22m [33m::1[39m [31mReturned 404 in 4 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:14:26 AM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:14:26 AM[22m [33m::1[39m [32mReturned 200 in 4 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:14:29 AM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:14:29 AM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:14:29 AM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:14:29 AM[22m [33m::1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:14:29 AM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:14:29 AM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:14:29 AM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:14:29 AM[22m [33m::1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:14:36 AM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:14:36 AM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+workspace         [44m[1m HTTP [22m[49m [2m11/29/2022 11:30:01 AM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:30:01 AM[22m [33m::1[39m [32mReturned 200 in 10 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:30:01 AM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:30:01 AM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:30:01 AM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:30:01 AM[22m [33m::1[39m [32mReturned 200 in 5 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:30:01 AM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:30:01 AM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:30:01 AM[22m [33m::1[39m [32mReturned 200 in 4 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:30:01 AM[22m [33m::1[39m [32mReturned 200 in 6 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:30:02 AM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:30:02 AM[22m [33m::1[39m [32mReturned 304 in 3 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:30:02 AM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:30:02 AM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:30:02 AM[22m [33m::1[39m [32mReturned 304 in 4 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:30:02 AM[22m [33m::1[39m [32mReturned 304 in 5 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:30:02 AM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:30:02 AM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:30:02 AM[22m [33m::1[39m [32mReturned 304 in 9 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:30:02 AM[22m [33m::1[39m [32mReturned 304 in 7 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:30:28 AM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:30:28 AM[22m [33m::1[39m [32mReturned 200 in 6 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:30:28 AM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:30:28 AM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:30:28 AM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:30:28 AM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:30:28 AM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:30:28 AM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:30:28 AM[22m [33m::1[39m [32mReturned 304 in 3 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:30:28 AM[22m [33m::1[39m [32mReturned 304 in 3 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:30:28 AM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:30:28 AM[22m [33m::1[39m [32mReturned 304 in 4 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:30:28 AM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:30:28 AM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:30:28 AM[22m [33m::1[39m [32mReturned 304 in 3 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:30:28 AM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:30:28 AM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:30:28 AM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:30:28 AM[22m [33m::1[39m [32mReturned 304 in 6 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:30:28 AM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:32:59 AM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:32:59 AM[22m [33m::1[39m [32mReturned 304 in 9 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:32:59 AM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:32:59 AM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:32:59 AM[22m [33m::1[39m [32mReturned 304 in 4 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:32:59 AM[22m [33m::1[39m [32mReturned 304 in 3 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:32:59 AM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:32:59 AM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:32:59 AM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:32:59 AM[22m [33m::1[39m [32mReturned 200 in 4 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:37:15 AM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:37:15 AM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:37:15 AM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:37:15 AM[22m [33m::1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:37:15 AM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:37:15 AM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:37:16 AM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:37:16 AM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:37:16 AM[22m [33m::1[39m [32mReturned 304 in 3 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:37:16 AM[22m [33m::1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:37:16 AM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:37:16 AM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:37:16 AM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:37:16 AM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:37:16 AM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:37:16 AM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:37:16 AM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:37:16 AM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:37:16 AM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:37:16 AM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:40:14 AM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:40:14 AM[22m [33m::1[39m [32mReturned 304 in 5 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:40:14 AM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:40:14 AM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:40:14 AM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:40:14 AM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:40:14 AM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:40:14 AM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:40:14 AM[22m [33m::1[39m [32mReturned 304 in 5 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:40:14 AM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:45:04 AM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:45:04 AM[22m [33m::1[39m [32mReturned 304 in 3 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:45:04 AM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:45:04 AM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:45:04 AM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:45:04 AM[22m [33m::1[39m [32mReturned 200 in 3 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:45:04 AM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:45:04 AM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:45:04 AM[22m [33m::1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:45:04 AM[22m [33m::1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:45:20 AM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:45:20 AM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:45:20 AM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:45:20 AM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:45:20 AM[22m [33m::1[39m [32mReturned 304 in 3 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:45:20 AM[22m [33m::1[39m [32mReturned 200 in 3 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:45:20 AM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:45:20 AM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:45:20 AM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:45:20 AM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:45:46 AM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:45:46 AM[22m [33m::1[39m [32mReturned 304 in 9 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:45:46 AM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:45:46 AM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:45:46 AM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:45:46 AM[22m [33m::1[39m [32mReturned 200 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:45:46 AM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:45:46 AM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:45:46 AM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 11:45:46 AM[22m [33m::1[39m [32mReturned 304 in 4 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:00:44 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:00:44 PM[22m [33m::1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:00:44 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:00:44 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:00:44 PM[22m [33m::1[39m [32mReturned 304 in 3 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:00:44 PM[22m [33m::1[39m [32mReturned 200 in 3 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:00:44 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:00:44 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:00:44 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:00:44 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:02:10 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:02:10 PM[22m [33m::1[39m [32mReturned 304 in 4 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:02:10 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:02:10 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:02:10 PM[22m [33m::1[39m [32mReturned 304 in 3 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:02:10 PM[22m [33m::1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:02:10 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:02:10 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:02:10 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:02:10 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:02:10 PM[22m [33m::1[39m [36mGET /undefined[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:02:10 PM[22m [33m::1[39m [31mReturned 404 in 3 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:02:22 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:02:22 PM[22m [33m::1[39m [32mReturned 304 in 5 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:02:22 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:02:22 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:02:22 PM[22m [33m::1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:02:22 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:02:22 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:02:22 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:02:22 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:02:22 PM[22m [33m::1[39m [32mReturned 200 in 6 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:02:23 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:02:23 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:02:23 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:02:23 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:02:23 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:02:23 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:02:23 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:02:23 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:02:23 PM[22m [33m::1[39m [32mReturned 304 in 10 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:02:23 PM[22m [33m::1[39m [32mReturned 304 in 6 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:02:53 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:02:53 PM[22m [33m::1[39m [32mReturned 304 in 8 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:02:53 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:02:53 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:02:53 PM[22m [33m::1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:02:53 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:02:53 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:02:53 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:02:53 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:02:53 PM[22m [33m::1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:02:54 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:02:54 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:02:54 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:02:54 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:02:54 PM[22m [33m::1[39m [32mReturned 304 in 6 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:02:54 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:02:54 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:02:54 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:02:54 PM[22m [33m::1[39m [32mReturned 304 in 6 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:02:54 PM[22m [33m::1[39m [32mReturned 304 in 3 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:03:05 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:03:05 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:03:05 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:03:05 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:03:05 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:03:05 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:03:05 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:03:05 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:03:05 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:03:05 PM[22m [33m::1[39m [32mReturned 200 in 3 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:03:26 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:03:26 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:03:26 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:03:26 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:03:26 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:03:26 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:03:26 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:03:26 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:03:26 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:03:26 PM[22m [33m::1[39m [32mReturned 200 in 3 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:03:27 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:03:27 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:03:27 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:03:27 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:03:27 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:03:27 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:03:27 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:03:27 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:03:27 PM[22m [33m::1[39m [32mReturned 304 in 3 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:03:27 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:03:39 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:03:39 PM[22m [33m::1[39m [32mReturned 304 in 5 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:03:39 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:03:39 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:03:39 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:03:39 PM[22m [33m::1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:03:39 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:03:39 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:03:39 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:03:39 PM[22m [33m::1[39m [32mReturned 200 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:03:51 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:03:51 PM[22m [33m::1[39m [32mReturned 304 in 5 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:03:51 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:03:51 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:03:51 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:03:51 PM[22m [33m::1[39m [32mReturned 304 in 3 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:03:51 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:03:51 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:03:51 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:03:51 PM[22m [33m::1[39m [32mReturned 200 in 3 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:03:51 PM[22m [33m::1[39m [36mGET /httpscdn.shopify.com/s/files/1/0092/5161/8878/products/Yellow_Watchman_grande.jpg?v=1579106961[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:03:51 PM[22m [33m::1[39m [36mGET /undefined[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:03:51 PM[22m [33m::1[39m [31mReturned 404 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:03:51 PM[22m [33m::1[39m [31mReturned 404 in 4 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:03:53 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:03:53 PM[22m [33m::1[39m [32mReturned 304 in 3 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:03:53 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:03:53 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:03:53 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:03:53 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:03:53 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:03:53 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:03:53 PM[22m [33m::1[39m [32mReturned 304 in 7 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:03:53 PM[22m [33m::1[39m [32mReturned 304 in 5 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:03:53 PM[22m [33m::1[39m [36mGET /httpscdn.shopify.com/s/files/1/0092/5161/8878/products/Yellow_Watchman_grande.jpg?v=1579106961[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:03:53 PM[22m [33m::1[39m [36mGET /undefined[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:03:53 PM[22m [33m::1[39m [31mReturned 404 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:03:53 PM[22m [33m::1[39m [31mReturned 404 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:04:24 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:04:24 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:04:24 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:04:24 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:04:24 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:04:24 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:04:24 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:04:24 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:04:24 PM[22m [33m::1[39m [32mReturned 304 in 3 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:04:24 PM[22m [33m::1[39m [32mReturned 200 in 8 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:04:25 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:04:25 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:04:25 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:04:25 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:04:25 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:04:25 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:04:25 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:04:25 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:04:25 PM[22m [33m::1[39m [32mReturned 304 in 4 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:04:25 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:04:31 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:04:31 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:04:31 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:04:31 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:04:31 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:04:31 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:04:31 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:04:31 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:04:31 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:04:31 PM[22m [33m::1[39m [32mReturned 200 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:04:32 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:04:32 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:04:32 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:04:32 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:04:32 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:04:32 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:04:32 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:04:32 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:04:32 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:04:32 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:04:44 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:04:44 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:04:44 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:04:44 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:04:44 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:04:44 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:04:44 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:04:44 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:04:44 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:04:44 PM[22m [33m::1[39m [32mReturned 200 in 3 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:04:45 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:04:45 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:04:45 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:04:45 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:04:45 PM[22m [33m::1[39m [32mReturned 304 in 10 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:04:45 PM[22m [33m::1[39m [32mReturned 304 in 10 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:04:45 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:04:45 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:04:45 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:04:45 PM[22m [33m::1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:04:57 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:04:57 PM[22m [33m::1[39m [32mReturned 304 in 6 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:04:57 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:04:57 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:04:57 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:04:57 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:04:57 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:04:57 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:04:57 PM[22m [33m::1[39m [32mReturned 304 in 8 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:04:57 PM[22m [33m::1[39m [32mReturned 200 in 11 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:04:58 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:04:58 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:04:58 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:04:58 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:04:58 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:04:58 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:04:58 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:04:58 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:04:58 PM[22m [33m::1[39m [32mReturned 304 in 3 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:04:58 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:06:40 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:06:40 PM[22m [33m::1[39m [32mReturned 304 in 5 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:06:40 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:06:40 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:06:40 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:06:40 PM[22m [33m::1[39m [32mReturned 304 in 4 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:06:40 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:06:40 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:06:40 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:06:40 PM[22m [33m::1[39m [32mReturned 200 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:06:51 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:06:51 PM[22m [33m::1[39m [32mReturned 304 in 4 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:06:51 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:06:51 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:06:51 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:06:51 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:06:51 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:06:51 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:06:51 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:06:51 PM[22m [33m::1[39m [32mReturned 200 in 4 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:06:51 PM[22m [33m::1[39m [36mGET /httpscdn.shopify.com/s/files/1/0092/5161/8878/products/Yellow_Watchman_grande.jpg?v=1579106961[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:06:51 PM[22m [33m::1[39m [36mGET /undefined[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:06:51 PM[22m [33m::1[39m [31mReturned 404 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:06:51 PM[22m [33m::1[39m [31mReturned 404 in 3 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:18:17 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:18:17 PM[22m [33m::1[39m [32mReturned 304 in 9 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:18:17 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:18:17 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:18:17 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:18:17 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:18:17 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:18:17 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:18:17 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:18:17 PM[22m [33m::1[39m [32mReturned 200 in 3 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:18:17 PM[22m [33m::1[39m [36mGET /undefined[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:18:17 PM[22m [33m::1[39m [31mReturned 404 in 3 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:20:58 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:20:58 PM[22m [33m::1[39m [32mReturned 304 in 7 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:20:58 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:20:58 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:20:58 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:20:58 PM[22m [33m::1[39m [32mReturned 304 in 4 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:20:58 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:20:58 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:20:58 PM[22m [33m::1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:20:58 PM[22m [33m::1[39m [32mReturned 200 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:20:58 PM[22m [33m::1[39m [36mGET /undefined[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:20:58 PM[22m [33m::1[39m [31mReturned 404 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:24:25 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:24:25 PM[22m [33m::1[39m [32mReturned 304 in 3 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:24:25 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:24:25 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:24:25 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:24:25 PM[22m [33m::1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:24:25 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:24:25 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:24:25 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:24:25 PM[22m [33m::1[39m [32mReturned 200 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:29:20 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:29:20 PM[22m [33m::1[39m [32mReturned 200 in 4 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:29:20 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:29:20 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:29:20 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:29:20 PM[22m [33m::1[39m [32mReturned 200 in 3 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:29:20 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:29:20 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:29:20 PM[22m [33m::1[39m [32mReturned 304 in 4 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:29:20 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:29:21 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:29:21 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:29:21 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:29:21 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:29:21 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:29:21 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:29:21 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:29:21 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:29:21 PM[22m [33m::1[39m [32mReturned 304 in 3 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:29:21 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:30:15 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:30:15 PM[22m [33m::1[39m [32mReturned 304 in 3 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:30:15 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:30:15 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:30:15 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:30:15 PM[22m [33m::1[39m [32mReturned 200 in 3 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:30:15 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:30:15 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:30:15 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:30:15 PM[22m [33m::1[39m [32mReturned 304 in 4 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:30:16 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:30:16 PM[22m [33m::1[39m [32mReturned 304 in 3 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:30:16 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:30:16 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:30:16 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:30:16 PM[22m [33m::1[39m [32mReturned 304 in 3 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:30:16 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:30:16 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:30:16 PM[22m [33m::1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:30:16 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:30:57 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:30:57 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:30:57 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:30:57 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:30:57 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:30:57 PM[22m [33m::1[39m [32mReturned 200 in 4 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:30:57 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:30:57 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:30:57 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:30:57 PM[22m [33m::1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:30:58 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:30:58 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:30:58 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:30:58 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:30:58 PM[22m [33m::1[39m [32mReturned 304 in 3 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:30:58 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:30:58 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:30:58 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:30:58 PM[22m [33m::1[39m [32mReturned 304 in 7 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:30:58 PM[22m [33m::1[39m [32mReturned 304 in 4 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:31:33 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:31:33 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:31:33 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:31:33 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:31:33 PM[22m [33m::1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:31:33 PM[22m [33m::1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:31:33 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:31:33 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:31:33 PM[22m [33m::1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:31:33 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:32:33 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:32:33 PM[22m [33m::1[39m [32mReturned 304 in 7 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:32:33 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:32:33 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:32:33 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:32:33 PM[22m [33m::1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:32:33 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:32:33 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:32:33 PM[22m [33m::1[39m [32mReturned 304 in 9 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:32:33 PM[22m [33m::1[39m [32mReturned 304 in 9 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:33:26 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:33:26 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:33:26 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:33:26 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:33:26 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:33:26 PM[22m [33m::1[39m [32mReturned 200 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:33:26 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:33:26 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:33:26 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 1:33:26 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:33:56 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:33:56 PM[22m [33m::1[39m [32mReturned 304 in 9 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:33:56 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:33:56 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:33:56 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:33:56 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:33:56 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:33:56 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:33:56 PM[22m [33m::1[39m [32mReturned 304 in 9 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:33:56 PM[22m [33m::1[39m [32mReturned 304 in 7 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:38:36 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:38:36 PM[22m [33m::1[39m [32mReturned 200 in 7 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:38:36 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:38:36 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:38:36 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:38:36 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:38:36 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:38:36 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:38:36 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:38:36 PM[22m [33m::1[39m [32mReturned 200 in 3 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:39:27 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:39:27 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:39:27 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:39:27 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:39:27 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:39:27 PM[22m [33m::1[39m [32mReturned 304 in 3 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:39:27 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:39:27 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:39:27 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:39:27 PM[22m [33m::1[39m [32mReturned 200 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:42:30 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:42:30 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:42:30 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:42:30 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:42:30 PM[22m [33m::1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:42:30 PM[22m [33m::1[39m [32mReturned 200 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:42:30 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:42:30 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:42:30 PM[22m [33m::1[39m [32mReturned 304 in 4 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:42:30 PM[22m [33m::1[39m [32mReturned 304 in 3 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:43:08 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:43:08 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:43:08 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:43:08 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:43:08 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:43:08 PM[22m [33m::1[39m [32mReturned 200 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:43:08 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:43:08 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:43:08 PM[22m [33m::1[39m [32mReturned 304 in 11 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:43:08 PM[22m [33m::1[39m [32mReturned 304 in 10 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:44:18 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:44:18 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:44:18 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:44:18 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:44:18 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:44:18 PM[22m [33m::1[39m [32mReturned 200 in 9 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:44:18 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:44:18 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:44:18 PM[22m [33m::1[39m [32mReturned 304 in 7 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:44:18 PM[22m [33m::1[39m [32mReturned 304 in 9 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:44:19 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:44:19 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:44:19 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:44:19 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:44:19 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:44:19 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:44:19 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:44:19 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:44:19 PM[22m [33m::1[39m [32mReturned 304 in 3 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:44:19 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:44:38 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:44:38 PM[22m [33m::1[39m [32mReturned 304 in 3 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:44:38 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:44:38 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:44:38 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:44:38 PM[22m [33m::1[39m [32mReturned 200 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:44:38 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:44:38 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:44:38 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:44:38 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:44:39 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:44:39 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:44:39 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:44:39 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:44:39 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:44:39 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:44:39 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:44:39 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:44:39 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:44:39 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:44:40 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:44:40 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:44:40 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:44:40 PM[22m [33m::1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:44:40 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:44:40 PM[22m [33m::1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:44:40 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:44:40 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:44:40 PM[22m [33m::1[39m [32mReturned 304 in 3 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:44:40 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:44:41 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:44:41 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:44:41 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:44:41 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:44:41 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:44:41 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:44:41 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:44:41 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:44:41 PM[22m [33m::1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:44:41 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:45:01 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:45:01 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:45:01 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:45:01 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:45:01 PM[22m [33m::1[39m [32mReturned 304 in 4 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:45:01 PM[22m [33m::1[39m [32mReturned 200 in 7 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:45:01 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:45:01 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:45:01 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:45:01 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:45:06 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:45:06 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:45:06 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:45:06 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:45:06 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:45:06 PM[22m [33m::1[39m [32mReturned 200 in 3 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:45:06 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:45:06 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:45:06 PM[22m [33m::1[39m [32mReturned 304 in 3 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:45:06 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:45:06 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:45:06 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:45:06 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:45:06 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:45:06 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:45:06 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:45:06 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:45:06 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:45:06 PM[22m [33m::1[39m [32mReturned 304 in 3 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:45:06 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:46:03 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:46:03 PM[22m [33m::1[39m [32mReturned 304 in 4 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:46:03 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:46:03 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:46:03 PM[22m [33m::1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:46:03 PM[22m [33m::1[39m [32mReturned 200 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:46:03 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:46:03 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:46:03 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:46:03 PM[22m [33m::1[39m [32mReturned 304 in 3 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:46:04 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:46:04 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:46:04 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:46:04 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:46:04 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:46:04 PM[22m [33m::1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:46:04 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:46:04 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:46:04 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:46:04 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:47:30 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:47:30 PM[22m [33m::1[39m [32mReturned 304 in 4 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:47:30 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:47:30 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:47:30 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:47:30 PM[22m [33m::1[39m [32mReturned 200 in 3 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:47:30 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:47:30 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:47:30 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:47:30 PM[22m [33m::1[39m [32mReturned 200 in 3 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:47:49 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:47:49 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:47:49 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:47:49 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:47:49 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:47:49 PM[22m [33m::1[39m [32mReturned 200 in 3 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:47:49 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:47:49 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:47:49 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:47:49 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:48:12 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:48:12 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:48:12 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:48:12 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:48:12 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:48:12 PM[22m [33m::1[39m [32mReturned 200 in 3 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:48:12 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:48:12 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:48:12 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:48:12 PM[22m [33m::1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:56:26 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:56:26 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:56:26 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:56:26 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:56:26 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:56:26 PM[22m [33m::1[39m [32mReturned 200 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:56:26 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:56:26 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:56:26 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:56:26 PM[22m [33m::1[39m [32mReturned 200 in 14 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:57:25 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:57:25 PM[22m [33m::1[39m [32mReturned 304 in 3 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:57:25 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:57:25 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:57:25 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:57:25 PM[22m [33m::1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:57:25 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:57:25 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:57:25 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:57:25 PM[22m [33m::1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:57:26 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:57:26 PM[22m [33m::1[39m [32mReturned 304 in 3 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:57:26 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:57:26 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:57:26 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:57:26 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:57:26 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:57:26 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:57:26 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:57:26 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:58:04 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:58:04 PM[22m [33m::1[39m [32mReturned 304 in 7 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:58:04 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:58:04 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:58:04 PM[22m [33m::1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:58:04 PM[22m [33m::1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:58:04 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:58:04 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:58:04 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:58:04 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:58:05 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:58:05 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:58:05 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:58:05 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:58:05 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:58:05 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:58:05 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:58:05 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:58:05 PM[22m [33m::1[39m [32mReturned 304 in 3 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:58:05 PM[22m [33m::1[39m [32mReturned 304 in 3 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:59:37 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:59:37 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:59:37 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:59:37 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:59:37 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:59:37 PM[22m [33m::1[39m [32mReturned 200 in 3 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:59:37 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:59:37 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:59:37 PM[22m [33m::1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:59:37 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:59:46 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:59:46 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:59:46 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:59:46 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:59:46 PM[22m [33m::1[39m [32mReturned 304 in 7 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:59:46 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:59:46 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:59:46 PM[22m [33m::1[39m [32mReturned 200 in 18 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:59:46 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 2:59:46 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:00:02 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:00:02 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:00:02 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:00:02 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:00:02 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:00:02 PM[22m [33m::1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:00:02 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:00:02 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:00:02 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:00:02 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:03:16 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:03:16 PM[22m [33m::1[39m [32mReturned 304 in 4 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:03:16 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:03:16 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:03:16 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:03:16 PM[22m [33m::1[39m [32mReturned 200 in 3 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:03:16 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:03:16 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:03:16 PM[22m [33m::1[39m [32mReturned 304 in 6 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:03:16 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:04:45 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:04:45 PM[22m [33m::1[39m [32mReturned 304 in 6 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:04:45 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:04:45 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:04:45 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:04:45 PM[22m [33m::1[39m [32mReturned 200 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:04:45 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:04:45 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:04:45 PM[22m [33m::1[39m [32mReturned 304 in 7 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:04:45 PM[22m [33m::1[39m [32mReturned 304 in 5 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:06:19 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:06:19 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:06:19 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:06:19 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:06:19 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:06:19 PM[22m [33m::1[39m [32mReturned 200 in 3 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:06:19 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:06:19 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:06:19 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:06:19 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:08:39 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:08:39 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:08:39 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:08:39 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:08:39 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:08:39 PM[22m [33m::1[39m [32mReturned 200 in 3 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:08:39 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:08:39 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:08:39 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:08:39 PM[22m [33m::1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:08:49 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:08:49 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:08:49 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:08:49 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:08:49 PM[22m [33m::1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:08:49 PM[22m [33m::1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:08:49 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:08:49 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:08:49 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:08:49 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:08:49 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:08:49 PM[22m [33m::1[39m [32mReturned 304 in 3 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:08:49 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:08:49 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:08:49 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:08:49 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:08:49 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:08:49 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:08:49 PM[22m [33m::1[39m [32mReturned 304 in 7 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:08:49 PM[22m [33m::1[39m [32mReturned 304 in 6 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:09:32 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:09:32 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:09:32 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:09:32 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:09:32 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:09:32 PM[22m [33m::1[39m [32mReturned 200 in 3 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:09:32 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:09:32 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:09:32 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:09:32 PM[22m [33m::1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:09:33 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:09:33 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:09:33 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:09:33 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:09:33 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:09:33 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:09:33 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:09:33 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:09:33 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:09:33 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:10:35 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:10:35 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:10:35 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:10:35 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:10:35 PM[22m [33m::1[39m [32mReturned 304 in 8 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:10:35 PM[22m [33m::1[39m [32mReturned 200 in 9 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:10:35 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:10:35 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:10:35 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:10:35 PM[22m [33m::1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:10:52 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:10:52 PM[22m [33m::1[39m [32mReturned 304 in 6 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:10:52 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:10:52 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:10:52 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:10:52 PM[22m [33m::1[39m [32mReturned 200 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:10:52 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:10:52 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:10:52 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:10:52 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:11:05 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:11:05 PM[22m [33m::1[39m [32mReturned 304 in 11 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:11:05 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:11:05 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:11:05 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:11:05 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:11:05 PM[22m [33m::1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:11:05 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:11:05 PM[22m [33m::1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:11:05 PM[22m [33m::1[39m [32mReturned 200 in 15 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:11:22 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:11:22 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:11:22 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:11:22 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:11:22 PM[22m [33m::1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:11:22 PM[22m [33m::1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:11:22 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:11:22 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:11:22 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:11:22 PM[22m [33m::1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:11:43 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:11:43 PM[22m [33m::1[39m [32mReturned 304 in 3 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:11:43 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:11:43 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:11:43 PM[22m [33m::1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:11:43 PM[22m [33m::1[39m [32mReturned 200 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:11:43 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:11:43 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:11:43 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:11:43 PM[22m [33m::1[39m [32mReturned 304 in 3 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:11:57 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:11:57 PM[22m [33m::1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:11:57 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:11:57 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:11:57 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:11:57 PM[22m [33m::1[39m [32mReturned 200 in 4 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:11:57 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:11:57 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:11:57 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:11:57 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:11:58 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:11:58 PM[22m [33m::1[39m [32mReturned 304 in 3 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:11:58 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:11:58 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:11:58 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:11:58 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:11:58 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:11:58 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:11:58 PM[22m [33m::1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:11:58 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:12:31 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:12:31 PM[22m [33m::1[39m [32mReturned 304 in 3 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:12:31 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:12:31 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:12:31 PM[22m [33m::1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:12:31 PM[22m [33m::1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:12:31 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:12:31 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:12:31 PM[22m [33m::1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:12:31 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:13:16 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:13:16 PM[22m [33m::1[39m [32mReturned 304 in 4 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:13:16 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:13:16 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:13:16 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:13:16 PM[22m [33m::1[39m [32mReturned 200 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:13:16 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:13:16 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:13:16 PM[22m [33m::1[39m [32mReturned 304 in 4 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:13:16 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:13:41 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:13:41 PM[22m [33m::1[39m [32mReturned 304 in 3 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:13:41 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:13:41 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:13:41 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:13:41 PM[22m [33m::1[39m [32mReturned 200 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:13:41 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:13:41 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:13:41 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:13:41 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:14:12 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:14:12 PM[22m [33m::1[39m [32mReturned 304 in 6 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:14:12 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:14:12 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:14:12 PM[22m [33m::1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:14:12 PM[22m [33m::1[39m [32mReturned 200 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:14:12 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:14:12 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:14:12 PM[22m [33m::1[39m [32mReturned 304 in 4 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:14:12 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:16:21 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:16:21 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:16:21 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:16:21 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:16:21 PM[22m [33m::1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:16:21 PM[22m [33m::1[39m [32mReturned 200 in 3 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:16:21 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:16:21 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:16:21 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:16:21 PM[22m [33m::1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:17:00 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:17:00 PM[22m [33m::1[39m [32mReturned 304 in 4 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:17:00 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:17:00 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:17:00 PM[22m [33m::1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:17:00 PM[22m [33m::1[39m [32mReturned 200 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:17:00 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:17:00 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:17:00 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:17:00 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:17:20 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:17:20 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:17:20 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:17:20 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:17:20 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:17:20 PM[22m [33m::1[39m [32mReturned 200 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:17:20 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:17:20 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:17:20 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:17:20 PM[22m [33m::1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:17:30 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:17:30 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:17:30 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:17:30 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:17:30 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:17:30 PM[22m [33m::1[39m [32mReturned 200 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:17:30 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:17:30 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:17:30 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:17:30 PM[22m [33m::1[39m [32mReturned 304 in 3 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:22:10 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:22:10 PM[22m [33m::1[39m [32mReturned 304 in 5 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:22:10 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:22:10 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:22:10 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:22:10 PM[22m [33m::1[39m [32mReturned 200 in 4 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:22:10 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:22:10 PM[22m [33m::1[39m [32mReturned 304 in 7 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:22:10 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:22:10 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:22:24 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:22:24 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:22:24 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:22:24 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:22:24 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:22:24 PM[22m [33m::1[39m [32mReturned 200 in 4 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:22:24 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:22:24 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:22:24 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:22:24 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:22:31 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:22:31 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:22:31 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:22:31 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:22:31 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:22:31 PM[22m [33m::1[39m [32mReturned 200 in 3 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:22:31 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:22:31 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:22:31 PM[22m [33m::1[39m [32mReturned 304 in 3 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:22:31 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:23:02 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:23:02 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:23:02 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:23:02 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:23:02 PM[22m [33m::1[39m [32mReturned 304 in 3 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:23:02 PM[22m [33m::1[39m [32mReturned 200 in 4 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:23:02 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:23:02 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:23:02 PM[22m [33m::1[39m [32mReturned 304 in 3 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:23:02 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:23:05 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:23:05 PM[22m [33m::1[39m [32mReturned 304 in 9 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:23:05 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:23:05 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:23:05 PM[22m [33m::1[39m [32mReturned 304 in 4 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:23:05 PM[22m [33m::1[39m [32mReturned 304 in 5 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:23:05 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:23:05 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:23:05 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:23:05 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:24:03 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:24:03 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:24:03 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:24:03 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:24:03 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:24:03 PM[22m [33m::1[39m [32mReturned 200 in 5 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:24:03 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:24:03 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:24:03 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:24:03 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:24:14 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:24:14 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:24:14 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:24:14 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:24:14 PM[22m [33m::1[39m [32mReturned 304 in 4 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:24:14 PM[22m [33m::1[39m [32mReturned 200 in 5 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:24:14 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:24:14 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:24:14 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:24:14 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:25:22 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:25:22 PM[22m [33m::1[39m [32mReturned 304 in 6 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:25:22 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:25:22 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:25:22 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:25:22 PM[22m [33m::1[39m [32mReturned 200 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:25:22 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:25:22 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:25:22 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:25:22 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:25:24 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:25:24 PM[22m [33m::1[39m [32mReturned 304 in 3 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:25:24 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:25:24 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:25:24 PM[22m [33m::1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:25:24 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:25:24 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:25:24 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:25:24 PM[22m [33m::1[39m [32mReturned 304 in 5 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:25:24 PM[22m [33m::1[39m [32mReturned 304 in 3 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:26:15 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:26:15 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:26:15 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:26:15 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:26:15 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:26:15 PM[22m [33m::1[39m [32mReturned 200 in 6 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:26:15 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:26:15 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:26:15 PM[22m [33m::1[39m [32mReturned 304 in 3 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:26:15 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:27:02 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:27:02 PM[22m [33m::1[39m [32mReturned 200 in 10 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:27:02 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:27:02 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:27:02 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:27:02 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:27:02 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:27:02 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:27:02 PM[22m [33m::1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:27:02 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:29:15 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:29:15 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:29:15 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:29:15 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:29:15 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:29:15 PM[22m [33m::1[39m [32mReturned 200 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:29:15 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:29:15 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:29:15 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:29:15 PM[22m [33m::1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:29:31 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:29:31 PM[22m [33m::1[39m [32mReturned 304 in 4 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:29:31 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:29:31 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:29:31 PM[22m [33m::1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:29:31 PM[22m [33m::1[39m [32mReturned 200 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:29:31 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:29:31 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:29:31 PM[22m [33m::1[39m [32mReturned 304 in 10 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:29:31 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:29:56 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:29:56 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:29:56 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:29:56 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:29:56 PM[22m [33m::1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:29:56 PM[22m [33m::1[39m [32mReturned 200 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:29:56 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:29:56 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:29:56 PM[22m [33m::1[39m [32mReturned 304 in 4 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:29:56 PM[22m [33m::1[39m [32mReturned 304 in 3 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:29:57 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:29:57 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:29:57 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:29:57 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:29:57 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:29:57 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:29:57 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:29:57 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:29:57 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:29:57 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:29:58 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:29:58 PM[22m [33m::1[39m [32mReturned 304 in 5 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:29:58 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:29:58 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:29:58 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:29:58 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:29:58 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:29:58 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:29:58 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:29:58 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:29:58 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:29:58 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:29:58 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:29:58 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:29:58 PM[22m [33m::1[39m [32mReturned 304 in 3 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:29:58 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:29:58 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:29:58 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:29:58 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:29:58 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:32:29 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:32:29 PM[22m [33m::1[39m [32mReturned 304 in 4 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:32:29 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:32:29 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:32:29 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:32:29 PM[22m [33m::1[39m [32mReturned 200 in 5 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:32:29 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:32:29 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:32:29 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:32:29 PM[22m [33m::1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:32:30 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:32:30 PM[22m [33m::1[39m [32mReturned 304 in 6 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:32:30 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:32:30 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:32:30 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:32:30 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:32:30 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:32:30 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:32:30 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:32:30 PM[22m [33m::1[39m [32mReturned 304 in 6 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:32:53 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:32:53 PM[22m [33m::1[39m [32mReturned 304 in 6 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:32:53 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:32:53 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:32:53 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:32:53 PM[22m [33m::1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:32:53 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:32:53 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:32:53 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:32:53 PM[22m [33m::1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:32:54 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:32:54 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:32:54 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:32:54 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:32:54 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:32:54 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:32:54 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:32:54 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:32:54 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:32:54 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:33:35 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:33:35 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:33:35 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:33:35 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:33:35 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:33:35 PM[22m [33m::1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:33:35 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:33:35 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:33:35 PM[22m [33m::1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:33:35 PM[22m [33m::1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:33:36 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:33:36 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:33:36 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:33:36 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:33:36 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:33:36 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:33:36 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:33:36 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:33:36 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:33:36 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:33:45 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:33:45 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:33:45 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:33:45 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:33:45 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:33:45 PM[22m [33m::1[39m [32mReturned 200 in 4 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:33:45 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:33:45 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:33:45 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:33:45 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:34:06 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:34:06 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:34:06 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:34:06 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:34:06 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:34:06 PM[22m [33m::1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:34:06 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:34:06 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:34:06 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:34:06 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:34:52 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:34:52 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:34:52 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:34:52 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:34:52 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:34:52 PM[22m [33m::1[39m [32mReturned 200 in 6 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:34:52 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:34:52 PM[22m [33m::1[39m [32mReturned 304 in 10 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:34:52 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:34:52 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:35:46 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:35:46 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:35:46 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:35:46 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:35:46 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:35:46 PM[22m [33m::1[39m [32mReturned 200 in 3 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:35:46 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:35:46 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:35:46 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:35:46 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:35:55 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:35:55 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:35:55 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:35:55 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:35:55 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:35:55 PM[22m [33m::1[39m [32mReturned 200 in 3 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:35:55 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:35:55 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:35:55 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:35:55 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:35:56 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:35:56 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:35:56 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:35:56 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:35:56 PM[22m [33m::1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:35:56 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:35:56 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:35:56 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:35:56 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:35:56 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:36:34 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:36:34 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:36:34 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:36:34 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:36:34 PM[22m [33m::1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:36:34 PM[22m [33m::1[39m [32mReturned 200 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:36:34 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:36:34 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:36:34 PM[22m [33m::1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:36:34 PM[22m [33m::1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:37:02 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:37:02 PM[22m [33m::1[39m [32mReturned 304 in 12 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:37:02 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:37:02 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:37:02 PM[22m [33m::1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:37:02 PM[22m [33m::1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:37:02 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:37:02 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:37:02 PM[22m [33m::1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:37:02 PM[22m [33m::1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:37:37 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:37:37 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:37:37 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:37:37 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:37:37 PM[22m [33m::1[39m [32mReturned 304 in 3 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:37:37 PM[22m [33m::1[39m [32mReturned 200 in 5 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:37:37 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:37:37 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:37:37 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:37:37 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:39:54 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:39:54 PM[22m [33m::1[39m [32mReturned 304 in 6 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:39:54 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:39:54 PM[22m [33m::1[39m [32mReturned 200 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:39:54 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:39:54 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:39:54 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:39:54 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:39:54 PM[22m [33m::1[39m [32mReturned 304 in 4 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:39:54 PM[22m [33m::1[39m [32mReturned 304 in 3 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:40:21 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:40:21 PM[22m [33m::1[39m [32mReturned 304 in 5 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:40:21 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:40:21 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:40:21 PM[22m [33m::1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:40:21 PM[22m [33m::1[39m [32mReturned 200 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:40:21 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:40:21 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:40:21 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:40:21 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:40:42 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:40:42 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:40:42 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:40:42 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:40:42 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:40:42 PM[22m [33m::1[39m [32mReturned 200 in 4 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:40:42 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:40:42 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:40:42 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:40:42 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:40:55 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:40:55 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:40:55 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:40:55 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:40:55 PM[22m [33m::1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:40:55 PM[22m [33m::1[39m [32mReturned 200 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:40:55 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:40:55 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:40:55 PM[22m [33m::1[39m [32mReturned 304 in 4 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:40:55 PM[22m [33m::1[39m [32mReturned 304 in 3 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:42:00 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:42:00 PM[22m [33m::1[39m [32mReturned 304 in 7 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:42:00 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:42:00 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:42:00 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:42:00 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:42:00 PM[22m [33m::1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:42:00 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:42:00 PM[22m [33m::1[39m [32mReturned 200 in 5 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:42:00 PM[22m [33m::1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:42:28 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:42:28 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:42:28 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:42:28 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:42:28 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:42:28 PM[22m [33m::1[39m [32mReturned 200 in 3 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:42:28 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:42:28 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:42:28 PM[22m [33m::1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:42:28 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:42:37 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:42:37 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:42:37 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:42:37 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:42:37 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:42:37 PM[22m [33m::1[39m [32mReturned 200 in 3 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:42:37 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:42:37 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:42:37 PM[22m [33m::1[39m [32mReturned 304 in 4 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:42:37 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:42:45 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:42:45 PM[22m [33m::1[39m [32mReturned 304 in 4 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:42:45 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:42:45 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:42:45 PM[22m [33m::1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:42:45 PM[22m [33m::1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:42:45 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:42:45 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:42:45 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:42:45 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:54:59 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:54:59 PM[22m [33m::1[39m [32mReturned 200 in 10 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:54:59 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:54:59 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:54:59 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:54:59 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:54:59 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:54:59 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:54:59 PM[22m [33m::1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:54:59 PM[22m [33m::1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:56:06 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:56:06 PM[22m [33m::1[39m [32mReturned 200 in 11 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:56:06 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:56:06 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:56:06 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:56:06 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:56:06 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:56:06 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:56:06 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:56:06 PM[22m [33m::1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:56:42 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:56:42 PM[22m [33m::1[39m [32mReturned 200 in 3 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:56:42 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:56:42 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:56:42 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:56:42 PM[22m [33m::1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:56:42 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:56:42 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:56:42 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:56:42 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:57:09 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:57:09 PM[22m [33m::1[39m [32mReturned 304 in 8 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:57:09 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:57:09 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:57:09 PM[22m [33m::1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:57:09 PM[22m [33m::1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:57:09 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:57:09 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:57:09 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:57:09 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:57:45 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:57:45 PM[22m [33m::1[39m [32mReturned 200 in 7 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:57:45 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:57:45 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:57:45 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:57:45 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:57:45 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:57:45 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:57:45 PM[22m [33m::1[39m [32mReturned 304 in 3 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:57:45 PM[22m [33m::1[39m [32mReturned 304 in 3 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:57:55 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:57:55 PM[22m [33m::1[39m [32mReturned 304 in 3 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:57:55 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:57:55 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:57:55 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:57:55 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:57:55 PM[22m [33m::1[39m [32mReturned 200 in 4 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:57:55 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:57:55 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:57:55 PM[22m [33m::1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:58:03 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:58:03 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:58:03 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:58:03 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:58:03 PM[22m [33m::1[39m [32mReturned 304 in 4 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:58:03 PM[22m [33m::1[39m [32mReturned 200 in 4 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:58:03 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:58:03 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:58:03 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:58:03 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:58:22 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:58:22 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:58:22 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:58:22 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:58:22 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:58:22 PM[22m [33m::1[39m [32mReturned 200 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:58:22 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:58:22 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:58:22 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:58:22 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:58:50 PM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:58:50 PM[22m [33m::1[39m [32mReturned 304 in 6 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:58:50 PM[22m [33m::1[39m [36mGET /styles/main.css[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:58:50 PM[22m [33m::1[39m [36mGET /scripts/main.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:58:50 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:58:50 PM[22m [33m::1[39m [32mReturned 200 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:58:50 PM[22m [33m::1[39m [36mGET /scripts/database.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:58:50 PM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:58:50 PM[22m [33m::1[39m [36mGET /scripts/FishList.js[39m
+[44m[1m HTTP [22m[49m [2m11/29/2022 3:58:50 PM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
